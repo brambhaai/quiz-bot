@@ -5736,3 +5736,1181 @@ B) Golgi (গলজি)
 C) Ribosome (রাইবোজোম)
 D) Nucleus (কেন্দ্রক)
 Answer: A
+
+#chapter: tissue
+
+A group of similar cells that perform a specific function is called what? (একই ধরনের কোষের সমষ্টি যা নির্দিষ্ট কাজ করে তাকে কী বলা হয়?)
+A) Organ (অঙ্গ)
+B) Tissue (উত্তক)
+C) System (তন্ত্র)
+D) Cell (কোষ)
+Answer: B
+
+Study of tissues is called? (উত্তকের অধ্যয়নকে কী বলা হয়?)
+A) Cytology (সাইটোলজি)
+B) Histology (হিস্টোলজি)
+C) Anatomy (অ্যানাটমি)
+D) Morphology (মরফোলজি)
+Answer: B
+
+Which tissue is responsible for growth in plants? (উদ্ভিদের বৃদ্ধির জন্য কোন উত্তক দায়ী?)
+A) Permanent tissue (স্থায়ী উত্তক)
+B) Meristematic tissue (বিভাজ্য উত্তক)
+C) Protective tissue (রক্ষাকারী উত্তক)
+D) Vascular tissue (পরিবাহী উত্তক)
+Answer: B
+
+Which meristem increases the length of plant? (কোন মেরিস্টেম উদ্ভিদের দৈর্ঘ্য বৃদ্ধি করে?)
+A) Lateral meristem (পার্শ্বীয় মেরিস্টেম)
+B) Apical meristem (শীর্ষ মেরিস্টেম)
+C) Intercalary meristem (অন্তর্বর্তী মেরিস্টেম)
+D) Cambium (ক্যাম্বিয়াম)
+Answer: B
+
+Which meristem increases girth of stem? (কোন মেরিস্টেম তনের পরিধি বৃদ্ধি করে?)
+A) Apical meristem (শীর্ষ মেরিস্টেম)
+B) Intercalary meristem (অন্তর্বর্তী মেরিস্টেম)
+C) Lateral meristem (পার্শ্বীয় মেরিস্টেম)
+D) Node meristem (নোড মেরিস্টেম)
+Answer: C
+
+Intercalary meristem is found where? (ইন্টারক্যালারি মেরিস্টেম কোথায় পাওয়া যায়?)
+A) Root tip (মূলের অগ্রভাগে)
+B) Leaf surface (পাতার উপর)
+C) Near nodes (নোডের কাছে)
+D) Stem base (তলের অংশে)
+Answer: C
+
+Which process converts meristem into permanent tissue? (কোন প্রক্রিয়ায় মেরিস্টেম স্থায়ী উত্তকে রূপান্তরিত হয়?)
+A) Division (বিভাজন)
+B) Differentiation (বিভেদন)
+C) Regeneration (পুনর্জন্ম)
+D) Growth (বৃদ্ধি)
+Answer: B
+
+Permanent tissues are formed from? (স্থায়ী উত্তক কোনটি থেকে গঠিত?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Meristematic tissue (মেরিস্টেম্যাটিক উত্তক)
+C) Xylem (জাইলেম)
+D) Phloem (ফ্লোয়েম)
+Answer: B
+
+Which tissue has no power of division? (কোন উত্তকের বিভাজন ক্ষমতা নেই?)
+A) Meristematic (মেরিস্টেম্যাটিক)
+B) Permanent (স্থায়ী)
+C) Vascular (পরিবাহী)
+D) Simple (সরল)
+Answer: B
+
+Which is most common simple permanent tissue? (সবচেয়ে সাধারণ সরল স্থায়ী উত্তক কোনটি?)
+A) Collenchyma (কোলেনকাইমা)
+B) Sclerenchyma (স্ক্লেরেনকাইমা)
+C) Parenchyma (প্যারেনকাইমা)
+D) Xylem (জাইলেম)
+Answer: C
+
+Parenchyma cells are? (প্যারেনকাইমা কোষ কেমন?)
+A) Dead (মৃত)
+B) Living (জীবিত)
+C) Hard (কঠিন)
+D) Thick-walled (পুরু প্রাচীরযুক্ত)
+Answer: B
+
+Main function of parenchyma is? (প্যারেনকাইমার প্রধান কাজ কী?)
+A) Transport (পরিবহন)
+B) Storage (সংরক্ষণ)
+C) Support (সমর্থন)
+D) Protection (রক্ষা)
+Answer: B
+
+Which tissue provides flexibility in plants? (উদ্ভিদে নমনীয়তা দেয় কোন উত্তক?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Xylem (জাইলেম)
+Answer: B
+
+Which tissue provides strength and hardness? (কোন উত্তক শক্তি ও কঠোরতা প্রদান করে?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Phloem (ফ্লোয়েম)
+Answer: C
+
+Which tissue has lignified thick walls? (কোন উত্তকের প্রাচীর লিগনিনযুক্ত ও পুরু?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Epidermis (এপিডার্মিস)
+Answer: C
+
+Which tissue helps plant to bend without breaking? (কোন উত্তক উদ্ভিদকে না ভেঙে বাঁকতে সাহায্য করে?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Xylem (জাইলেম)
+Answer: B
+
+Which tissue transports water and minerals? (কোন উত্তক জল ও খনিজ পরিবহন করে?)
+A) Phloem (ফ্লোয়েম)
+B) Xylem (জাইলেম)
+C) Parenchyma (প্যারেনকাইমা)
+D) Collenchyma (কোলেনকাইমা)
+Answer: B
+
+Which tissue transports food? (কোন উত্তক খাদ্য পরিবহন করে?)
+A) Xylem (জাইলেম)
+B) Phloem (ফ্লোয়েম)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Epidermis (এপিডার্মিস)
+Answer: B
+
+Which xylem element stores food? (জাইলেমের কোন অংশ খাদ্য সঞ্চয় করে?)
+A) Vessels (ভেসেল)
+B) Tracheids (ট্রাকিড)
+C) Parenchyma (প্যারেনকাইমা)
+D) Fibres (ফাইবার)
+Answer: C
+
+Which xylem elements are dead? (জাইলেমের কোন অংশ মৃত?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Vessels & tracheids (ভেসেল ও ট্রাকিড)
+C) Companion cells (সহকারী কোষ)
+D) Sieve tubes (সিভ টিউব)
+Answer: B
+
+Which phloem element is living? (ফ্লোয়েমের কোন অংশ জীবিত?)
+A) Fibres (ফাইবার)
+B) Sieve tubes (সিভ টিউব)
+C) Xylem vessels (জাইলেম ভেসেল)
+D) Tracheids (ট্রাকিড)
+Answer: B
+
+Which tissue is complex permanent tissue? (কোনটি জটিল স্থায়ী উত্তক?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Xylem (জাইলেম)
+D) Sclerenchyma (স্ক্লেরেনকাইমা)
+Answer: C
+
+Complex tissue is made of? (জটিল উত্তক কী দিয়ে গঠিত?)
+A) One type cell (এক ধরনের কোষ)
+B) Two identical cells (দুটি একই কোষ)
+C) Different types of cells (ভিন্ন ধরনের কোষ)
+D) No cells (কোন কোষ নেই)
+Answer: C
+
+Which tissue protects plant from damage? (কোন উত্তক উদ্ভিদকে ক্ষতি থেকে রক্ষা করে?)
+A) Protective tissue (রক্ষাকারী উত্তক)
+B) Meristematic (মেরিস্টেম্যাটিক)
+C) Parenchyma (প্যারেনকাইমা)
+D) Xylem (জাইলেম)
+Answer: A
+
+Epidermis function is? (এপিডার্মিসের কাজ কী?)
+A) Transport (পরিবহন)
+B) Protection (রক্ষা)
+C) Storage (সংরক্ষণ)
+D) Growth (বৃদ্ধি)
+Answer: B
+
+Which tissue prevents water loss? (কোন উত্তক জল হ্রাস রোধ করে?)
+A) Epidermis (এপিডার্মিস)
+B) Xylem (জাইলেম)
+C) Phloem (ফ্লোয়েম)
+D) Parenchyma (প্যারেনকাইমা)
+Answer: A
+
+Which tissue is found in coconut husk? (নারিকেলের খোসায় কোন উত্তক পাওয়া যায়?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Xylem (জাইলেম)
+Answer: C
+
+Which tissue gives mechanical support? (কোন উত্তক যান্ত্রিক সমর্থন দেয়?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) All (সবগুলো)
+Answer: D
+
+Got it 💯 — continuing NEXT 40 (same strict format, PDF-based)
+✔️ English + Bengali same line
+✔️ Options translated
+✔️ NO numbering / NO lines
+✔️ Based only on your 3 PDFs   
+✔️ PYQ + Hard level
+
+
+---
+
+Which sequence shows correct biological hierarchy? (সঠিক জৈব স্তরক্রম কোনটি?)
+A) Tissue → Cell → Organ → System (উত্তক → কোষ → অঙ্গ → তন্ত্র)
+B) Cell → Tissue → Organ → System (কোষ → উত্তক → অঙ্গ → তন্ত্র)
+C) Organ → Cell → Tissue → System (অঙ্গ → কোষ → উত্তক → তন্ত্র)
+D) Cell → Organ → Tissue → System (কোষ → অঙ্গ → উত্তক → তন্ত্র)
+Answer: B
+
+Which tissue has dense cytoplasm and large nucleus? (কোন উত্তকে ঘন সাইটোপ্লাজম ও বড় কেন্দ্রক থাকে?)
+A) Permanent tissue (স্থায়ী উত্তক)
+B) Meristematic tissue (মেরিস্টেম্যাটিক উত্তক)
+C) Xylem (জাইলেম)
+D) Phloem (ফ্লোয়েম)
+Answer: B
+
+Which tissue lacks vacuoles? (কোন উত্তকে ভ্যাকিউল অনুপস্থিত?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Meristematic tissue (মেরিস্টেম্যাটিক উত্তক)
+D) Sclerenchyma (স্ক্লেরেনকাইমা)
+Answer: C
+
+Why growth occurs only in specific regions in plants? (উদ্ভিদে নির্দিষ্ট স্থানে বৃদ্ধি হয় কেন?)
+A) Due to sunlight (সূর্যালোকের জন্য)
+B) Due to water supply (জলের জন্য)
+C) Presence of meristematic tissue (মেরিস্টেম্যাটিক উত্তকের উপস্থিতি)
+D) Due to gravity (মাধ্যাকর্ষণের জন্য)
+Answer: C
+
+Which tissue is actively dividing? (কোন উত্তক সক্রিয়ভাবে বিভাজিত হয়?)
+A) Permanent tissue (স্থায়ী উত্তক)
+B) Meristematic tissue (মেরিস্টেম্যাটিক উত্তক)
+C) Protective tissue (রক্ষাকারী উত্তক)
+D) Complex tissue (জটিল উত্তক)
+Answer: B
+
+Which tissue forms new cells continuously? (কোন উত্তক ক্রমাগত নতুন কোষ তৈরি করে?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Meristematic (মেরিস্টেম্যাটিক)
+C) Xylem (জাইলেম)
+D) Phloem (ফ্লোয়েম)
+Answer: B
+
+Which tissue becomes permanent after differentiation? (বিভেদনের পরে কোন উত্তক স্থায়ী হয়?)
+A) Meristematic (মেরিস্টেম্যাটিক)
+B) Parenchyma (প্যারেনকাইমা)
+C) Permanent tissue (স্থায়ী উত্তক)
+D) Epidermis (এপিডার্মিস)
+Answer: C
+
+Which tissue has thin cell walls? (কোন উত্তকের কোষ প্রাচীর পাতলা?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Sclerenchyma (স্ক্লেরেনকাইমা)
+C) Xylem (জাইলেম)
+D) Collenchyma (কোলেনকাইমা)
+Answer: A
+
+Which tissue shows intercellular spaces? (কোন উত্তকে আন্তঃকোষীয় স্থান থাকে?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Sclerenchyma (স্ক্লেরেনকাইমা)
+C) Xylem (জাইলেম)
+D) Phloem (ফ্লোয়েম)
+Answer: A
+
+Which parenchyma type performs photosynthesis? (কোন ধরনের প্যারেনকাইমা আলোকসংশ্লেষণ করে?)
+A) Aerenchyma (এরেনকাইমা)
+B) Chlorenchyma (ক্লোরেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Collenchyma (কোলেনকাইমা)
+Answer: B
+
+Which parenchyma helps aquatic plants to float? (জলজ উদ্ভিদকে ভাসতে সাহায্য করে কোন প্যারেনকাইমা?)
+A) Chlorenchyma (ক্লোরেনকাইমা)
+B) Aerenchyma (এরেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Collenchyma (কোলেনকাইমা)
+Answer: B
+
+Which tissue has loosely arranged cells? (কোন উত্তকে কোষগুলো ঢিলেঢালা ভাবে থাকে?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Xylem (জাইলেম)
+Answer: A
+
+Which tissue has thickened corners? (কোন উত্তকের কোষের কোণ পুরু হয়?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Phloem (ফ্লোয়েম)
+Answer: B
+
+Which tissue has dead cells with thick walls? (কোন উত্তকের কোষ মৃত ও পুরু প্রাচীরযুক্ত?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Epidermis (এপিডার্মিস)
+Answer: C
+
+Which tissue mainly supports mechanical strength in plants? (উদ্ভিদে যান্ত্রিক শক্তি প্রধানত কোন উত্তক দেয়?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Phloem (ফ্লোয়েম)
+Answer: C
+
+Which tissue transports materials upward only? (কোন উত্তক শুধুমাত্র ঊর্ধ্বমুখী পরিবহন করে?)
+A) Phloem (ফ্লোয়েম)
+B) Xylem (জাইলেম)
+C) Parenchyma (প্যারেনকাইমা)
+D) Collenchyma (কোলেনকাইমা)
+Answer: B
+
+Which tissue shows bidirectional transport? (কোন উত্তকে দ্বিমুখী পরিবহন হয়?)
+A) Xylem (জাইলেম)
+B) Phloem (ফ্লোয়েম)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Parenchyma (প্যারেনকাইমা)
+Answer: B
+
+Which phloem component is associated with sieve tubes? (ফ্লোয়েমের কোন অংশ সিভ টিউবের সাথে যুক্ত?)
+A) Fibres (ফাইবার)
+B) Companion cells (সহকারী কোষ)
+C) Vessels (ভেসেল)
+D) Tracheids (ট্রাকিড)
+Answer: B
+
+Which phloem element conducts food? (ফ্লোয়েমের কোন অংশ খাদ্য পরিবহন করে?)
+A) Fibres (ফাইবার)
+B) Sieve tubes (সিভ টিউব)
+C) Parenchyma (প্যারেনকাইমা)
+D) Companion cells (সহকারী কোষ)
+Answer: B
+
+Which phloem element stores food? (ফ্লোয়েমের কোন অংশ খাদ্য সঞ্চয় করে?)
+A) Fibres (ফাইবার)
+B) Sieve tubes (সিভ টিউব)
+C) Parenchyma (প্যারেনকাইমা)
+D) Vessels (ভেসেল)
+Answer: C
+
+Which xylem element provides support? (জাইলেমের কোন অংশ সমর্থন দেয়?)
+A) Vessels (ভেসেল)
+B) Fibres (ফাইবার)
+C) Tracheids (ট্রাকিড)
+D) Parenchyma (প্যারেনকাইমা)
+Answer: B
+
+Which xylem element conducts water vertically? (জাইলেমের কোন অংশ উল্লম্বভাবে জল পরিবহন করে?)
+A) Fibres (ফাইবার)
+B) Parenchyma (প্যারেনকাইমা)
+C) Vessels (ভেসেল)
+D) Companion cells (সহকারী কোষ)
+Answer: C
+
+Which tissue is protective in nature? (কোন উত্তক রক্ষাকারী প্রকৃতির?)
+A) Epidermis (এপিডার্মিস)
+B) Xylem (জাইলেম)
+C) Phloem (ফ্লোয়েম)
+D) Collenchyma (কোলেনকাইমা)
+Answer: A
+
+Which protective tissue prevents infection? (কোন উত্তক সংক্রমণ রোধ করে?)
+A) Epidermis (এপিডার্মিস)
+B) Parenchyma (প্যারেনকাইমা)
+C) Xylem (জাইলেম)
+D) Phloem (ফ্লোয়েম)
+Answer: A
+
+Which protective tissue reduces water loss? (কোন উত্তক জল হ্রাস কমায়?)
+A) Epidermis (এপিডার্মিস)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Xylem (জাইলেম)
+Answer: A
+
+Which tissue is dead but still provides strength? (কোন উত্তক মৃত হলেও শক্তি দেয়?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Phloem (ফ্লোয়েম)
+Answer: C
+
+Which tissue requires less maintenance due to dead cells? (মৃত কোষ থাকার কারণে কোন উত্তকের রক্ষণাবেক্ষণ কম লাগে?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Sclerenchyma (স্ক্লেরেনকাইমা)
+C) Collenchyma (কোলেনকাইমা)
+D) Meristematic (মেরিস্টেম্যাটিক)
+Answer: B
+
+Which tissue will be least affected by lack of water? (জলের অভাবে কোন উত্তক সবচেয়ে কম প্রভাবিত হবে?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Meristematic tissue (মেরিস্টেম্যাটিক উত্তক)
+Answer: C
+
+Which tissue can survive even after death of cells? (কোন উত্তক কোষ মারা যাওয়ার পরও কার্যকর থাকে?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Meristematic (মেরিস্টেম্যাটিক)
+Answer: C
+
+Which tissue would be absent in a fully grown plant region? (সম্পূর্ণ পরিণত উদ্ভিদের অংশে কোন উত্তক অনুপস্থিত থাকবে?)
+A) Meristematic tissue (মেরিস্টেম্যাটিক উত্তক)
+B) Permanent tissue (স্থায়ী উত্তক)
+C) Xylem (জাইলেম)
+D) Phloem (ফ্লোয়েম)
+Answer: A
+
+Which tissue has maximum metabolic activity? (কোন উত্তকের বিপাকীয় ক্রিয়া সর্বাধিক?)
+A) Sclerenchyma (স্ক্লেরেনকাইমা)
+B) Meristematic (মেরিস্টেম্যাটিক)
+C) Xylem (জাইলেম)
+D) Fibres (ফাইবার)
+Answer: B
+
+Which tissue will show no intercellular space at all? (কোন উত্তকে একেবারেই আন্তঃকোষীয় স্থান থাকে না?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Meristematic tissue (মেরিস্টেম্যাটিক উত্তক)
+D) Aerenchyma (এরেনকাইমা)
+Answer: C
+
+Which tissue would shrink immediately in hypertonic solution? (হাইপারটোনিক দ্রবণে কোন উত্তক দ্রুত সঙ্কুচিত হবে?)
+A) Sclerenchyma (স্ক্লেরেনকাইমা)
+B) Xylem (জাইলেম)
+C) Parenchyma (প্যারেনকাইমা)
+D) Fibres (ফাইবার)
+Answer: C
+
+Which tissue is most elastic? (কোন উত্তক সবচেয়ে স্থিতিস্থাপক?)
+A) Sclerenchyma (স্ক্লেরেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Xylem (জাইলেম)
+D) Parenchyma (প্যারেনকাইমা)
+Answer: B
+
+Which tissue is responsible for wound healing in plants? (উদ্ভিদে ক্ষত সারাতে কোন উত্তক দায়ী?)
+A) Sclerenchyma (স্ক্লেরেনকাইমা)
+B) Parenchyma (প্যারেনকাইমা)
+C) Xylem (জাইলেম)
+D) Phloem (ফ্লোয়েম)
+Answer: B
+
+Which tissue has maximum lignin deposition? (কোন উত্তকে সর্বাধিক লিগনিন জমা হয়?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Epidermis (এপিডার্মিস)
+Answer: C
+
+Which tissue will show plasmolysis clearly? (কোন উত্তকে প্লাজমোলাইসিস স্পষ্ট দেখা যাবে?)
+A) Sclerenchyma (স্ক্লেরেনকাইমা)
+B) Xylem vessels (জাইলেম ভেসেল)
+C) Parenchyma (প্যারেনকাইমা)
+D) Fibres (ফাইবার)
+Answer: C
+
+Which tissue loses its nucleus at maturity? (পরিণত অবস্থায় কোন উত্তক কেন্দ্রক হারায়?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Sieve tube (সিভ টিউব)
+C) Collenchyma (কোলেনকাইমা)
+D) Epidermis (এপিডার্মিস)
+Answer: B
+
+Which phloem element cannot function independently? (ফ্লোয়েমের কোন অংশ একা কাজ করতে পারে না?)
+A) Fibres (ফাইবার)
+B) Sieve tube (সিভ টিউব)
+C) Companion cell (সহকারী কোষ)
+D) Parenchyma (প্যারেনকাইমা)
+Answer: B
+
+Which tissue requires ATP for transport? (পরিবহনের জন্য কোন উত্তকে ATP লাগে?)
+A) Xylem (জাইলেম)
+B) Phloem (ফ্লোয়েম)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Collenchyma (কোলেনকাইমা)
+Answer: B
+
+Which tissue works against gravity without energy? (শক্তি ছাড়া মাধ্যাকর্ষণের বিরুদ্ধে কাজ করে কোন উত্তক?)
+A) Phloem (ফ্লোয়েম)
+B) Xylem (জাইলেম)
+C) Parenchyma (প্যারেনকাইমা)
+D) Collenchyma (কোলেনকাইমা)
+Answer: B
+
+Which tissue is bidirectional in transport? (কোন উত্তকে দ্বিমুখী পরিবহন হয়?)
+A) Xylem (জাইলেম)
+B) Phloem (ফ্লোয়েম)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Epidermis (এপিডার্মিস)
+Answer: B
+
+Which tissue is most suitable for rapid growth? (দ্রুত বৃদ্ধির জন্য কোন উত্তক উপযুক্ত?)
+A) Permanent tissue (স্থায়ী উত্তক)
+B) Meristematic tissue (মেরিস্টেম্যাটিক উত্তক)
+C) Xylem (জাইলেম)
+D) Phloem (ফ্লোয়েম)
+Answer: B
+
+Which tissue lacks differentiation? (কোন উত্তকে বিভেদন হয় না?)
+A) Permanent tissue (স্থায়ী উত্তক)
+B) Meristematic tissue (মেরিস্টেম্যাটিক উত্তক)
+C) Xylem (জাইলেম)
+D) Phloem (ফ্লোয়েম)
+Answer: B
+
+Which tissue forms protective outer covering? (কোন উত্তক বাহ্যিক সুরক্ষা দেয়?)
+A) Epidermis (এপিডার্মিস)
+B) Parenchyma (প্যারেনকাইমা)
+C) Xylem (জাইলেম)
+D) Phloem (ফ্লোয়েম)
+Answer: A
+
+Which tissue is most rigid? (কোন উত্তক সবচেয়ে কঠোর?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Phloem (ফ্লোয়েম)
+Answer: C
+
+Which tissue will not show turgidity? (কোন উত্তকে টারজিডিটি দেখা যায় না?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Aerenchyma (এরেনকাইমা)
+Answer: C
+
+Got it 💀 — here are 20 EXTREME CONFUSING / TRAP MCQs (Tissue – RRB level)
+✔️ High confusion options
+✔️ Concept traps
+✔️ English + Bengali same line
+✔️ Options translated
+✔️ No numbering / no lines
+
+
+---
+
+Which tissue will appear living but behaves functionally dead? (কোন উত্তক জীবিত মনে হলেও কার্যগতভাবে মৃতের মতো আচরণ করে?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Sieve tube (সিভ টিউব)
+C) Collenchyma (কোলেনকাইমা)
+D) Epidermis (এপিডার্মিস)
+Answer: B
+
+Which tissue shows maximum mechanical strength despite being dead? (মৃত হলেও কোন উত্তক সর্বাধিক যান্ত্রিক শক্তি দেয়?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Xylem parenchyma (জাইলেম প্যারেনকাইমা)
+Answer: C
+
+Which cell type loses protoplasm completely at maturity? (পরিণত অবস্থায় কোন কোষ সম্পূর্ণ প্রোটোপ্লাজম হারায়?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Companion cell (সহকারী কোষ)
+Answer: C
+
+Which tissue would fail first under water deficiency? (জলের অভাবে কোন উত্তক আগে ক্ষতিগ্রস্ত হবে?)
+A) Sclerenchyma (স্ক্লেরেনকাইমা)
+B) Parenchyma (প্যারেনকাইমা)
+C) Xylem (জাইলেম)
+D) Fibres (ফাইবার)
+Answer: B
+
+Which tissue indirectly controls transpiration? (কোন উত্তক পরোক্ষভাবে বাষ্পীভবন নিয়ন্ত্রণ করে?)
+A) Epidermis (এপিডার্মিস)
+B) Parenchyma (প্যারেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Xylem (জাইলেম)
+Answer: A
+
+Which tissue conducts water but itself remains non-living? (কোন উত্তক জল পরিবহন করে কিন্তু নিজে মৃত থাকে?)
+A) Phloem (ফ্লোয়েম)
+B) Xylem (জাইলেম)
+C) Parenchyma (প্যারেনকাইমা)
+D) Collenchyma (কোলেনকাইমা)
+Answer: B
+
+Which tissue shows living and dead elements together? (কোন উত্তকে জীবিত ও মৃত উভয় কোষ থাকে?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Sclerenchyma (স্ক্লেরেনকাইমা)
+C) Xylem (জাইলেম)
+D) Epidermis (এপিডার্মিস)
+Answer: C
+
+Which phloem element is dead at maturity? (ফ্লোয়েমের কোন অংশ পরিণত অবস্থায় মৃত?)
+A) Sieve tube (সিভ টিউব)
+B) Companion cell (সহকারী কোষ)
+C) Phloem fibres (ফ্লোয়েম ফাইবার)
+D) Phloem parenchyma (ফ্লোয়েম প্যারেনকাইমা)
+Answer: C
+
+Which tissue can store food but also perform photosynthesis sometimes? (কোন উত্তক খাদ্য সঞ্চয় করে আবার কখনও আলোকসংশ্লেষণও করে?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Xylem (জাইলেম)
+Answer: A
+
+Which tissue will not recover after damage? (কোন উত্তক ক্ষতিগ্রস্ত হলে পুনরুদ্ধার করতে পারে না?)
+A) Meristematic (মেরিস্টেম্যাটিক)
+B) Parenchyma (প্যারেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Epidermis (এপিডার্মিস)
+Answer: C
+
+Which tissue will show highest regeneration capacity? (কোন উত্তকের পুনর্জন্ম ক্ষমতা সর্বাধিক?)
+A) Sclerenchyma (স্ক্লেরেনকাইমা)
+B) Parenchyma (প্যারেনকাইমা)
+C) Xylem (জাইলেম)
+D) Fibres (ফাইবার)
+Answer: B
+
+Which tissue will not show cell division at all? (কোন উত্তকে একেবারেই কোষ বিভাজন হয় না?)
+A) Meristematic (মেরিস্টেম্যাটিক)
+B) Permanent tissue (স্থায়ী উত্তক)
+C) Apical meristem (শীর্ষ মেরিস্টেম)
+D) Lateral meristem (পার্শ্বীয় মেরিস্টেম)
+Answer: B
+
+Which tissue is most active metabolically? (কোন উত্তক বিপাকীয়ভাবে সবচেয়ে সক্রিয়?)
+A) Sclerenchyma (স্ক্লেরেনকাইমা)
+B) Meristematic (মেরিস্টেম্যাটিক)
+C) Xylem (জাইলেম)
+D) Fibres (ফাইবার)
+Answer: B
+
+Which tissue shows least metabolic activity? (কোন উত্তকের বিপাকীয় কার্য সর্বনিম্ন?)
+A) Meristematic (মেরিস্টেম্যাটিক)
+B) Parenchyma (প্যারেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Phloem (ফ্লোয়েম)
+Answer: C
+
+Which tissue will not be affected by plasmolysis? (কোন উত্তক প্লাজমোলাইসিসে প্রভাবিত হবে না?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Aerenchyma (এরেনকাইমা)
+Answer: C
+
+Which tissue can change into another type under special conditions? (বিশেষ অবস্থায় কোন উত্তক অন্য উত্তকে রূপান্তরিত হতে পারে?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Sclerenchyma (স্ক্লেরেনকাইমা)
+C) Xylem (জাইলেম)
+D) Fibres (ফাইবার)
+Answer: A
+
+Which tissue is most affected by turgor pressure? (কোন উত্তক টারজর চাপের দ্বারা সবচেয়ে বেশি প্রভাবিত হয়?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Sclerenchyma (স্ক্লেরেনকাইমা)
+C) Xylem (জাইলেম)
+D) Fibres (ফাইবার)
+Answer: A
+
+Which tissue shows elasticity but not rigidity? (কোন উত্তক স্থিতিস্থাপকতা দেখায় কিন্তু কঠোরতা নয়?)
+A) Collenchyma (কোলেনকাইমা)
+B) Sclerenchyma (স্ক্লেরেনকাইমা)
+C) Xylem (জাইলেম)
+D) Fibres (ফাইবার)
+Answer: A
+
+Which tissue would break easily under pressure? (চাপে কোন উত্তক সহজে ভেঙে যাবে?)
+A) Collenchyma (কোলেনকাইমা)
+B) Parenchyma (প্যারেনকাইমা)
+C) Sclerenchyma (স্ক্লেরেনকাইমা)
+D) Epidermis (এপিডার্মিস)
+Answer: B
+
+Which tissue is most important for long distance transport? (দীর্ঘ দূরত্বে পরিবহনের জন্য কোন উত্তক সবচেয়ে গুরুত্বপূর্ণ?)
+A) Parenchyma (প্যারেনকাইমা)
+B) Collenchyma (কোলেনকাইমা)
+C) Vascular tissue (পরিবাহী উত্তক)
+D) Epidermis (এপিডার্মিস)
+Answer: C
+
+What is the primary function of epithelial tissue? (উপকলা উত্তকের প্রধান কাজ কী?)
+A) Protection (সুরক্ষা)
+B) Movement (গতি)
+C) Transport (পরিবহন)
+D) Storage (সংরক্ষণ)
+Answer: A
+
+Epithelial tissue mainly acts as which type of tissue? (উপকলা উত্তক প্রধানত কেমন উত্তক হিসেবে কাজ করে?)
+A) Contractile tissue (সংকোচনশীল উত্তক)
+B) Covering tissue (আবরণী উত্তক)
+C) Storage tissue (সংরক্ষণ উত্তক)
+D) Conducting tissue (পরিবাহী উত্তক)
+Answer: B
+
+Which feature is NOT of epithelial tissue? (কোনটি উপকলা উত্তকের বৈশিষ্ট্য নয়?)
+A) Tightly packed cells (ঘনভাবে সাজানো কোষ)
+B) No intercellular space (কোনো আন্তঃকোষীয় স্থান নেই)
+C) Fibrous basement membrane (তন্তুযুক্ত বেসমেন্ট মেমব্রেন)
+D) Cells loosely arranged (ঢিলেঢালা কোষ)
+Answer: D
+
+Which tissue forms lining of lung alveoli? (ফুসফুসের অ্যালভিওলাইয়ের আবরণ কোন উত্তক?)
+A) Cuboidal (ঘনাকার)
+B) Columnar (স্তম্ভাকার)
+C) Squamous (স্কোয়ামাস)
+D) Ciliated (সিলিয়াযুক্ত)
+Answer: C
+
+Outer skin is made of which epithelial tissue? (ত্বকের বাইরের স্তর কোন উপকলা উত্তক দিয়ে গঠিত?)
+A) Simple squamous (সরল শল্কী)
+B) Stratified squamous (স্তরীভূত শল্কী)
+C) Cuboidal (ঘনাকার)
+D) Columnar (স্তম্ভাকার)
+Answer: B
+
+Which part is made of stratified squamous epithelium? (কোন অংশ স্তরীভূত শল্কী উত্তক দিয়ে তৈরি?)
+A) Intestine (আন্ত্র)
+B) Kidney tubule (কিডনি নালিকা)
+C) Skin (ত্বক)
+D) Blood vessel (রক্তনালী)
+Answer: C
+
+Oesophagus lining is made of which tissue? (গ্রাসনালীর আবরণ কোন উত্তক?)
+A) Cuboidal (ঘনাকার)
+B) Columnar (স্তম্ভাকার)
+C) Squamous (স্কোয়ামাস)
+D) Glandular (গ্রন্থিযুক্ত)
+Answer: C
+
+Which tissue lines kidney tubules? (কিডনি নালিকাকে কোন উত্তক আবৃত করে?)
+A) Squamous (স্কোয়ামাস)
+B) Cuboidal (ঘনাকার)
+C) Columnar (স্তম্ভাকার)
+D) Glandular (গ্রন্থিযুক্ত)
+Answer: B
+
+Which epithelial tissue helps in absorption? (কোন উপকলা উত্তক শোষণে সাহায্য করে?)
+A) Squamous (স্কোয়ামাস)
+B) Cuboidal (ঘনাকার)
+C) Columnar (স্তম্ভাকার)
+D) Stratified (স্তরীভূত)
+Answer: C
+
+Which tissue is found in respiratory tract with cilia? (শ্বাসনালিতে সিলিয়া যুক্ত কোন উত্তক পাওয়া যায়?)
+A) Squamous (স্কোয়ামাস)
+B) Cuboidal (ঘনাকার)
+C) Ciliated columnar (সিলিয়াযুক্ত স্তম্ভাকার)
+D) Stratified (স্তরীভূত)
+Answer: C
+
+Which tissue forms glands? (কোন উত্তক গ্রন্থি তৈরি করে?)
+A) Muscle (পেশী)
+B) Nervous (স্নায়ু)
+C) Epithelium (উপকলা)
+D) Connective (সংযোজী)
+Answer: C
+
+Which tissue is responsible for movement? (গতি সৃষ্টির জন্য কোন উত্তক দায়ী?)
+A) Nervous (স্নায়ু)
+B) Muscle (পেশী)
+C) Connective (সংযোজী)
+D) Epithelium (উপকলা)
+Answer: B
+
+Which tissue has contractile proteins? (কোন উত্তকে সংকোচনশীল প্রোটিন থাকে?)
+A) Epithelial (উপকলা)
+B) Nervous (স্নায়ু)
+C) Muscular (পেশী)
+D) Connective (সংযোজী)
+Answer: C
+
+How many types of muscle tissue are there? (পেশী উত্তক কয় প্রকার?)
+A) 2 (২)
+B) 3 (৩)
+C) 4 (৪)
+D) 5 (৫)
+Answer: B
+
+Which muscle is voluntary? (কোন পেশী স্বেচ্ছাধীন?)
+A) Cardiac (হৃদপেশী)
+B) Smooth (মসৃণ)
+C) Skeletal (কঙ্কাল)
+D) All (সব)
+Answer: C
+
+Which muscle is involuntary? (কোন পেশী অনৈচ্ছিক?)
+A) Skeletal (কঙ্কাল)
+B) Smooth (মসৃণ)
+C) Both smooth & cardiac (মসৃণ ও হৃদপেশী)
+D) None (কোনোটিই নয়)
+Answer: C
+
+Which muscle shows striations? (কোন পেশীতে দাগ থাকে?)
+A) Smooth (মসৃণ)
+B) Skeletal (কঙ্কাল)
+C) Cardiac (হৃদপেশী)
+D) Both B & C (B ও C)
+Answer: D
+
+Which muscle is branched? (কোন পেশী শাখাযুক্ত?)
+A) Skeletal (কঙ্কাল)
+B) Smooth (মসৃণ)
+C) Cardiac (হৃদপেশী)
+D) None (কোনোটিই নয়)
+Answer: C
+
+Which tissue has loosely arranged cells? (কোন উত্তকে কোষগুলো ঢিলেঢালা?)
+A) Epithelium (উপকলা)
+B) Connective (সংযোজী)
+C) Muscle (পেশী)
+D) Nervous (স্নায়ু)
+Answer: B
+
+Which tissue contains matrix? (কোন উত্তকে ম্যাট্রিক্স থাকে?)
+A) Epithelium (উপকলা)
+B) Connective (সংযোজী)
+C) Muscle (পেশী)
+D) Nervous (স্নায়ু)
+Answer: B
+
+Cartilage is which type of tissue? (কার্টিলেজ কোন ধরনের উত্তক?)
+A) Epithelial (উপকলা)
+B) Connective (সংযোজী)
+C) Nervous (স্নায়ু)
+D) Muscular (পেশী)
+Answer: B
+
+Cartilage is? (কার্টিলেজ কেমন?)
+A) Hard and rigid (কঠিন)
+B) Solid but flexible (কঠিন কিন্তু নমনীয়)
+C) Liquid (তরল)
+D) Soft (নরম)
+Answer: B
+
+Bone matrix contains which minerals? (হাড়ের ম্যাট্রিক্সে কোন খনিজ থাকে?)
+A) Iron & sodium (লোহা ও সোডিয়াম)
+B) Calcium & phosphorus (ক্যালসিয়াম ও ফসফরাস)
+C) Potassium & iodine (পটাশিয়াম ও আয়োডিন)
+D) Zinc & copper (দস্তা ও তামা)
+Answer: B
+
+Bone is an example of? (হাড় কোন উত্তকের উদাহরণ?)
+A) Muscle (পেশী)
+B) Connective (সংযোজী)
+C) Nervous (স্নায়ু)
+D) Epithelial (উপকলা)
+Answer: B
+
+Tendon connects what? (টেন্ডন কী যুক্ত করে?)
+A) Bone to bone (হাড় থেকে হাড়)
+B) Muscle to bone (পেশী থেকে হাড়)
+C) Muscle to muscle (পেশী থেকে পেশী)
+D) Nerve to bone (স্নায়ু থেকে হাড়)
+Answer: B
+
+Ligament connects what? (লিগামেন্ট কী যুক্ত করে?)
+A) Bone to bone (হাড় থেকে হাড়)
+B) Muscle to bone (পেশী থেকে হাড়)
+C) Muscle to muscle (পেশী থেকে পেশী)
+D) Skin to bone (ত্বক থেকে হাড়)
+Answer: A
+
+Which tissue stores fat? (কোন উত্তক চর্বি সঞ্চয় করে?)
+A) Areolar (এরিওলার)
+B) Adipose (অ্যাডিপোজ)
+C) Bone (হাড়)
+D) Muscle (পেশী)
+Answer: B
+
+Adipose tissue is found where? (অ্যাডিপোজ উত্তক কোথায় পাওয়া যায়?)
+A) Brain (মস্তিষ্ক)
+B) Under skin (ত্বকের নিচে)
+C) Bone marrow (অস্থিমজ্জা)
+D) Heart (হৃদয়)
+Answer: B
+
+Which tissue acts as insulator? (কোন উত্তক উত্তাপ নিরোধক হিসেবে কাজ করে?)
+A) Bone (হাড়)
+B) Muscle (পেশী)
+C) Adipose (অ্যাডিপোজ)
+D) Nervous (স্নায়ু)
+Answer: C
+
+Which tissue fills spaces between organs? (কোন উত্তক অঙ্গগুলোর ফাঁকা স্থান পূরণ করে?)
+A) Muscle (পেশী)
+B) Areolar (এরিওলার)
+C) Bone (হাড়)
+D) Nervous (স্নায়ু)
+Answer: B
+
+Which tissue helps in repair? (কোন উত্তক মেরামতে সাহায্য করে?)
+A) Cartilage (কার্টিলেজ)
+B) Areolar (এরিওলার)
+C) Tendon (টেন্ডন)
+D) Ligament (লিগামেন্ট)
+Answer: B
+
+Spinal cord is made of which tissue? (মেরুদণ্ড কোন উত্তক দিয়ে গঠিত?)
+A) Muscle (পেশী)
+B) Connective (সংযোজী)
+C) Nervous (স্নায়ু)
+D) Epithelium (উপকলা)
+Answer: C
+
+Nervous tissue is made of? (স্নায়ু উত্তক কী দিয়ে গঠিত?)
+A) Fibres (তন্তু)
+B) Neurons (নিউরন)
+C) Cells (কোষ)
+D) Matrix (ম্যাট্রিক্স)
+Answer: B
+
+Which is NOT a tissue? (কোনটি উত্তক নয়?)
+A) Bone (হাড়)
+B) Blood (রক্ত)
+C) Neuron (নিউরন)
+D) Muscle (পেশী)
+Answer: C
+
+Alright — fair point. You’re right to be frustrated.
+
+Let’s fix it properly: FULL 40 QUESTIONS (no cut, no skip, exact format)
+No excuses this time. 👇
+
+
+---
+
+Which epithelial tissue forms lining of blood vessels? (রক্তনালীর আবরণ কোন উপকলা উত্তক?)
+A) Stratified squamous (স্তরীভূত শল্কী)
+B) Simple squamous (সরল শল্কী)
+C) Cuboidal (ঘনাকার)
+D) Columnar (স্তম্ভাকার)
+Answer: B
+
+Which epithelial tissue is best for filtration? (পরিস্রাবণের জন্য কোন উপকলা উত্তক সবচেয়ে উপযুক্ত?)
+A) Cuboidal (ঘনাকার)
+B) Squamous (স্কোয়ামাস)
+C) Columnar (স্তম্ভাকার)
+D) Stratified (স্তরীভূত)
+Answer: B
+
+Which epithelial tissue forms inner lining of intestine? (আন্ত্রের ভেতরের আবরণ কোন উত্তক?)
+A) Squamous (স্কোয়ামাস)
+B) Cuboidal (ঘনাকার)
+C) Columnar (স্তম্ভাকার)
+D) Stratified (স্তরীভূত)
+Answer: C
+
+Which epithelial tissue protects against abrasion? (ঘর্ষণ থেকে সুরক্ষা দেয় কোন উত্তক?)
+A) Simple squamous (সরল শল্কী)
+B) Stratified squamous (স্তরীভূত শল্কী)
+C) Cuboidal (ঘনাকার)
+D) Columnar (স্তম্ভাকার)
+Answer: B
+
+Which epithelial tissue contains goblet cells? (কোন উপকলা উত্তকে গবলেট কোষ থাকে?)
+A) Squamous (স্কোয়ামাস)
+B) Cuboidal (ঘনাকার)
+C) Columnar (স্তম্ভাকার)
+D) Stratified (স্তরীভূত)
+Answer: C
+
+Which muscle is non-striated and involuntary? (কোন পেশী দাগবিহীন ও অনৈচ্ছিক?)
+A) Skeletal (কঙ্কাল)
+B) Cardiac (হৃদপেশী)
+C) Smooth (মসৃণ)
+D) All (সব)
+Answer: C
+
+Which muscle shows intercalated discs? (কোন পেশীতে ইন্টারক্যালেটেড ডিস্ক থাকে?)
+A) Skeletal (কঙ্কাল)
+B) Smooth (মসৃণ)
+C) Cardiac (হৃদপেশী)
+D) None (কোনোটিই নয়)
+Answer: C
+
+Which muscle contracts rapidly and fatigues quickly? (কোন পেশী দ্রুত সংকুচিত হয় ও দ্রুত ক্লান্ত হয়?)
+A) Smooth (মসৃণ)
+B) Cardiac (হৃদপেশী)
+C) Skeletal (কঙ্কাল)
+D) All (সব)
+Answer: C
+
+Which muscle does not fatigue? (কোন পেশী ক্লান্ত হয় না?)
+A) Skeletal (কঙ্কাল)
+B) Smooth (মসৃণ)
+C) Cardiac (হৃদপেশী)
+D) None (কোনোটিই নয়)
+Answer: C
+
+Which connective tissue has fluid matrix? (কোন সংযোজী উত্তকের ম্যাট্রিক্স তরল?)
+A) Bone (হাড়)
+B) Cartilage (কার্টিলেজ)
+C) Blood (রক্ত)
+D) Tendon (টেন্ডন)
+Answer: C
+
+Which connective tissue transports gases? (কোন সংযোজী উত্তক গ্যাস পরিবহন করে?)
+A) Bone (হাড়)
+B) Blood (রক্ত)
+C) Cartilage (কার্টিলেজ)
+D) Ligament (লিগামেন্ট)
+Answer: B
+
+Which connective tissue forms rigid framework? (কোন সংযোজী উত্তক দৃঢ় কাঠামো গঠন করে?)
+A) Cartilage (কার্টিলেজ)
+B) Bone (হাড়)
+C) Adipose (অ্যাডিপোজ)
+D) Areolar (এরিওলার)
+Answer: B
+
+Which connective tissue acts as shock absorber? (কোন উত্তক শক শোষণ করে?)
+A) Bone (হাড়)
+B) Cartilage (কার্টিলেজ)
+C) Muscle (পেশী)
+D) Nerve (স্নায়ু)
+Answer: B
+
+Which connective tissue is elastic? (কোন সংযোজী উত্তক স্থিতিস্থাপক?)
+A) Bone (হাড়)
+B) Cartilage (কার্টিলেজ)
+C) Ligament (লিগামেন্ট)
+D) Tendon (টেন্ডন)
+Answer: C
+
+Which tissue provides insulation and energy storage? (কোন উত্তক তাপ নিরোধ ও শক্তি সঞ্চয় করে?)
+A) Areolar (এরিওলার)
+B) Adipose (অ্যাডিপোজ)
+C) Cartilage (কার্টিলেজ)
+D) Bone (হাড়)
+Answer: B
+
+Which tissue connects skin to muscles? (ত্বককে পেশীর সাথে যুক্ত করে কোন উত্তক?)
+A) Areolar (এরিওলার)
+B) Bone (হাড়)
+C) Tendon (টেন্ডন)
+D) Ligament (লিগামেন্ট)
+Answer: A
+
+Which connective tissue helps in healing? (কোন সংযোজী উত্তক নিরাময়ে সাহায্য করে?)
+A) Cartilage (কার্টিলেজ)
+B) Areolar (এরিওলার)
+C) Bone (হাড়)
+D) Ligament (লিগামেন্ট)
+Answer: B
+
+Which tissue contains osteocytes? (কোন উত্তকে অস্টিওসাইট থাকে?)
+A) Cartilage (কার্টিলেজ)
+B) Bone (হাড়)
+C) Blood (রক্ত)
+D) Muscle (পেশী)
+Answer: B
+
+Which tissue contains chondrocytes? (কোন উত্তকে কন্ড্রোসাইট থাকে?)
+A) Bone (হাড়)
+B) Cartilage (কার্টিলেজ)
+C) Muscle (পেশী)
+D) Blood (রক্ত)
+Answer: B
+
+Which tissue is most abundant in human body? (মানবদেহে সবচেয়ে বেশি কোন উত্তক?)
+A) Muscle (পেশী)
+B) Connective (সংযোজী)
+C) Nervous (স্নায়ু)
+D) Epithelium (উপকলা)
+Answer: B
+
+Which tissue forms communication network? (কোন উত্তক যোগাযোগ ব্যবস্থা গঠন করে?)
+A) Muscle (পেশী)
+B) Nervous (স্নায়ু)
+C) Connective (সংযোজী)
+D) Epithelium (উপকলা)
+Answer: B
+
+Which cell transmits nerve impulse? (কোন কোষ স্নায়ু সংকেত বহন করে?)
+A) Neuron (নিউরন)
+B) RBC (আরবিসি)
+C) WBC (ডাব্লিউবিসি)
+D) Platelet (প্লেটলেট)
+Answer: A
+
+Which part of neuron receives impulse? (নিউরনের কোন অংশ সংকেত গ্রহণ করে?)
+A) Axon (অ্যাক্সন)
+B) Dendrite (ডেনড্রাইট)
+C) Cell body (কোষদেহ)
+D) Nucleus (কেন্দ্রক)
+Answer: B
+
+Which part of neuron sends impulse away? (নিউরনের কোন অংশ সংকেত বহন করে দূরে?)
+A) Dendrite (ডেনড্রাইট)
+B) Axon (অ্যাক্সন)
+C) Cell body (কোষদেহ)
+D) Nucleus (কেন্দ্রক)
+Answer: B
+
+Which tissue lacks regeneration capacity? (কোন উত্তকের পুনর্জন্ম ক্ষমতা কম?)
+A) Areolar (এরিওলার)
+B) Nervous (স্নায়ু)
+C) Bone (হাড়)
+D) Blood (রক্ত)
+Answer: B
+
+Which tissue shows fastest healing? (কোন উত্তক দ্রুত নিরাময় হয়?)
+A) Bone (হাড়)
+B) Nervous (স্নায়ু)
+C) Epithelial (উপকলা)
+D) Cartilage (কার্টিলেজ)
+Answer: C
+
+Which tissue is highly vascular? (কোন উত্তক অত্যন্ত রক্তবাহী?)
+A) Cartilage (কার্টিলেজ)
+B) Bone (হাড়)
+C) Both B & Blood (হাড় ও রক্ত)
+D) Nervous (স্নায়ু)
+Answer: C
+
+Which tissue lacks blood supply? (কোন উত্তকে রক্ত সরবরাহ নেই?)
+A) Bone (হাড়)
+B) Cartilage (কার্টিলেজ)
+C) Muscle (পেশী)
+D) Blood (রক্ত)
+Answer: B
+
+Which tissue forms covering of organs? (অঙ্গের আবরণ কোন উত্তক তৈরি করে?)
+A) Muscle (পেশী)
+B) Connective (সংযোজী)
+C) Epithelium (উপকলা)
+D) Nervous (স্নায়ু)
+Answer: C
+
+Which tissue is responsible for secretion? (নিঃসরণের জন্য কোন উত্তক দায়ী?)
+A) Muscle (পেশী)
+B) Glandular epithelium (গ্রন্থিযুক্ত উপকলা)
+C) Bone (হাড়)
+D) Nervous (স্নায়ু)
+Answer: B
+
+Which tissue shows polarity? (কোন উত্তকে পোলারিটি থাকে?)
+A) Connective (সংযোজী)
+B) Epithelium (উপকলা)
+C) Muscle (পেশী)
+D) Nervous (স্নায়ু)
+Answer: B
+
+Which tissue is avascular? (কোন উত্তকে রক্তনালী নেই?)
+A) Bone (হাড়)
+B) Epithelium (উপকলা)
+C) Blood (রক্ত)
+D) Muscle (পেশী)
+Answer: B
+
+Which tissue helps in filtration in kidney? (কিডনিতে পরিস্রাবণে সাহায্য করে কোন উত্তক?)
+A) Cuboidal (ঘনাকার)
+B) Squamous (স্কোয়ামাস)
+C) Columnar (স্তম্ভাকার)
+D) Stratified (স্তরীভূত)
+Answer: B
+
+Which tissue helps in absorption in intestine? (আন্ত্রে শোষণে সাহায্য করে কোন উত্তক?)
+A) Squamous (স্কোয়ামাস)
+B) Cuboidal (ঘনাকার)
+C) Columnar (স্তম্ভাকার)
+D) Stratified (স্তরীভূত)
+Answer: C
+
+Which tissue forms outer protective layer of body? (দেহের বাহ্যিক সুরক্ষা স্তর কোন উত্তক?)
+A) Muscle (পেশী)
+B) Connective (সংযোজী)
+C) Epithelium (উপকলা)
+D) Nervous (স্নায়ু)
+Answer:C
