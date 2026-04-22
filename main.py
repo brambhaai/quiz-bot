@@ -1,192 +1,292 @@
 import telebot
 from telebot import types
-import time
 import os
+import random
+import time
 import threading
+import sqlite3
 from datetime import datetime, timedelta
 
-# --- CONFIG ---
+# Initialize Bot
 API_TOKEN = os.getenv("BOT_TOKEN")
-GROUP_ID = -1003746627836
-ADMIN_KEY = "Esh20imayar26"
+bot = telebot.TeleBot(API_TOKEN, threaded=True, num_threads=25)
 
-bot = telebot.TeleBot(API_TOKEN)
+ADMIN_KEY = "Railway@7my"
+GROUP_ID = -1003746627836 
 
-# --- DATA ---
-current_timer = 60
-user_scores = {}
-user_wrong_streak = {}
-poll_correct_answers = {}
-stored_questions = []
-admin_sessions = {}
+# ===== DATABASE SETUP (2-Week Persistent Memory) =====
+DB_NAME = "quiz_history.db"
 
-# --- AUTH ---
-def is_login_valid(chat_id):
-    if chat_id not in admin_sessions:
-        return False
-    if datetime.now() > admin_sessions[chat_id] + timedelta(minutes=20):
-        del admin_sessions[chat_id]
-        return False
-    return True
+def init_db():
+    conn = sqlite3.connect(DB_NAME)
+    c = conn.cursor()
+    c.execute('''CREATE TABLE IF NOT EXISTS history 
+                 (question_hash TEXT PRIMARY KEY, last_used TIMESTAMP)''')
+    conn.commit()
+    conn.close()
 
-# --- MENU ---
-def main_menu():
-    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-    markup.add('📝 Make Question', '🚀 Start Quiz')
-    markup.add('🏆 Get Leaderboard', '⚙️ Set Timer')
-    return markup
+def mark_question_used(question_text):
+    conn = sqlite3.connect(DB_NAME)
+    c = conn.cursor()
+    q_hash = str(hash(question_text))
+    c.execute("INSERT OR REPLACE INTO history (question_hash, last_used) VALUES (?, ?)", 
+              (q_hash, datetime.now()))
+    conn.commit()
+    conn.close()
 
-# --- START ---
-@bot.message_handler(commands=['start'])
-def start(message):
-    bot.send_message(message.chat.id, "🤖 Admin Panel Active.", reply_markup=main_menu())
+def get_used_question_hashes():
+    conn = sqlite3.connect(DB_NAME)
+    c = conn.cursor()
+    two_weeks_ago = datetime.now() - timedelta(days=14)
+    c.execute("SELECT question_hash FROM history WHERE last_used > ?", (two_weeks_ago,))
+    used = {row[0] for row in c.fetchall()}
+    conn.close()
+    return used
 
-# --- ADMIN LOGIN ---
-@bot.message_handler(commands=['admin'])
-def admin_login(message):
-    msg = bot.send_message(message.chat.id, "🔑 Enter Admin Key:")
-    bot.register_next_step_handler(msg, verify_admin)
+init_db()
 
-def verify_admin(message):
-    if message.text == ADMIN_KEY:
-        admin_sessions[message.chat.id] = datetime.now()
-        bot.send_message(message.chat.id, "✅ Logged in (20 min)")
-    else:
-        bot.send_message(message.chat.id, "❌ Wrong key")
+# ===== DATA STORAGE =====
+question_bank = {} 
+user_state = {}
+user_step = {}
+selected_chapters = {}
+user_scores = {} 
+quiz_active = {} 
+skipped_this_q = set() 
 
-# --- TIMER ---
-@bot.message_handler(func=lambda m: m.text == '⚙️ Set Timer')
-def set_timer(message):
-    if not is_login_valid(message.chat.id):
-        return bot.send_message(message.chat.id, "🔐 Use /admin")
+current_poll_data = {
+    "poll_id": None,
+    "message_id": None,
+    "active": False,
+    "correct_id": None,
+    "max_answers": 3,
+    "skip_count": 0,
+    "voter_count": 0
+}
 
-    msg = bot.send_message(message.chat.id, "Enter seconds (10-600):")
-    bot.register_next_step_handler(msg, save_timer)
-
-def save_timer(message):
-    global current_timer
-    try:
-        t = int(message.text)
-        if 10 <= t <= 600:
-            current_timer = t
-            bot.send_message(message.chat.id, f"✅ Timer set to {t}s")
-        else:
-            bot.send_message(message.chat.id, "❌ Must be 10-600")
-    except:
-        bot.send_message(message.chat.id, "❌ Invalid input")
-
-# --- QUESTIONS ---
-@bot.message_handler(func=lambda m: m.text == '📝 Make Question')
-def make_q(message):
-    if not is_login_valid(message.chat.id):
-        return bot.send_message(message.chat.id, "🔐 Use /admin")
-
-    msg = bot.send_message(message.chat.id, "Paste questions:")
-    bot.register_next_step_handler(msg, save_q)
-
-def save_q(message):
-    global stored_questions
-    blocks = [b.strip() for b in message.text.split('\n\n') if "Answer:" in b]
-
-    if blocks:
-        stored_questions = blocks
-        bot.send_message(message.chat.id, f"✅ {len(blocks)} saved")
-    else:
-        bot.send_message(message.chat.id, "❌ Format error")
-
-# --- QUIZ THREAD ---
-def run_quiz(message):
-    global stored_questions
-
-    bot.send_message(message.chat.id, f"🚀 Sending {len(stored_questions)} questions")
-
-    for i, block in enumerate(stored_questions, 1):
+# [span_2](start_span)===== 1. DATABASE LOADER[span_2](end_span) =====
+def load_questions():
+    subjects = ["biology", "math", "reasoning", "physics", "chemistry"]
+    for sub in subjects:
         try:
-            lines = [l.strip() for l in block.split('\n') if l.strip()]
-            if len(lines) < 6:
-                continue
-
-            q = f"Q{i}: {lines[0]}"
-            options = [lines[1][3:], lines[2][3:], lines[3][3:], lines[4][3:]]
-
-            ans = "A"
-            for l in lines:
-                if "Answer:" in l:
-                    ans = l.split(":")[-1].strip().upper()
-
-            idx = ord(ans) - ord('A')
-
-            poll = bot.send_poll(
-                chat_id=GROUP_ID,
-                question=q,
-                options=options,
-                type='quiz',
-                correct_option_id=idx,
-                is_anonymous=False,
-                open_period=current_timer
-            )
-
-            poll_correct_answers[poll.poll.id] = idx
-            time.sleep(current_timer + 2)
-
+            path = f"questions/{sub}.txt"
+            if not os.path.exists(path): continue
+            with open(path, "r", encoding="utf-8") as f:
+                text = f.read()
+            current_chapter = "General" 
+            blocks = [b.strip() for b in text.split("\n\n") if b.strip()]
+            for block in blocks:
+                lines = block.split("\n")
+                for line in lines:
+                    if line.lower().startswith("#chapter:"):
+                        current_chapter = line.split(":")[1].strip()
+                if "Answer:" in block:
+                    question_bank.setdefault(sub, {}).setdefault(current_chapter, []).append(block)
+            print(f"✅ {sub.capitalize()} loaded.")
         except Exception as e:
-            print(e)
+            print(f"❌ Error loading {sub}: {e}")
 
-    stored_questions = []
-    bot.send_message(message.chat.id, "🏁 Quiz Done")
+load_questions()
 
-# --- START QUIZ ---
-@bot.message_handler(func=lambda m: m.text == '🚀 Start Quiz')
-def start_quiz(message):
-    if not is_login_valid(message.chat.id):
-        return bot.send_message(message.chat.id, "🔐 Use /admin")
+# [span_3](start_span)===== 2. CORE UTILITIES[span_3](end_span) =====
+def init_user(uid, name):
+    if uid not in user_scores:
+        user_scores[uid] = {"name": name, "correct": 0, "wrong": 0, "skip": 0, "score": 0.0}
 
-    if not stored_questions:
-        return bot.send_message(message.chat.id, "⚠️ No questions")
+def get_report():
+    if not user_scores: return "📊 No results to show."
+    sorted_u = sorted(user_scores.values(), key=lambda x: x['score'], reverse=True)
+    report = "📋 **DETAILED QUIZ REPORT** 📋\n━━━━━━━━━━━━━━\n"
+    for u in sorted_u:
+        total = u['correct'] + u['wrong'] + u['skip']
+        report += (f"👤 **{u['name']}**\n"
+                   f"📝 Total: {total} Qs\n"
+                   f"✅ Correct: {u['correct']}\n"
+                   f"❌ Wrong: {u['wrong']}\n"
+                   f"⏩ Skipped: {u['skip']}\n"
+                   f"🏆 **Score: {u['score']}**\n"
+                   f"━━━━━━━━━━━━━━\n")
+    return report
 
-    threading.Thread(target=run_quiz, args=(message,)).start()
-
-# --- POLL ANSWER ---
+# [span_4](start_span)===== 3. EVENT HANDLERS[span_4](end_span) =====
 @bot.poll_answer_handler()
-def handle_poll(poll):
-    if not poll.option_ids:
-        return
-
-    uid = poll.user.id
-    name = poll.user.first_name
-    selected = poll.option_ids[0]
-
-    if poll.poll_id in poll_correct_answers:
-        if selected == poll_correct_answers[poll.poll_id]:
-            user_scores[uid] = user_scores.get(uid, {"name": name, "score": 0})
-            user_scores[uid]["score"] += 1
-            user_wrong_streak[uid] = 0
+def handle_poll_answer(poll_answer):
+    uid = poll_answer.user.id
+    init_user(uid, poll_answer.user.first_name)
+    if str(poll_answer.poll_id) == str(current_poll_data["poll_id"]):
+        current_poll_data["voter_count"] += 1
+        if poll_answer.option_ids[0] == current_poll_data["correct_id"]:
+            user_scores[uid]["correct"] += 1
+            user_scores[uid]["score"] += 1.0
         else:
-            user_wrong_streak[uid] = user_wrong_streak.get(uid, 0) + 1
-            if user_wrong_streak[uid] >= 3:
-                bot.send_message(GROUP_ID, f"💪 {name}, keep trying!")
-                user_wrong_streak[uid] = 0
+            user_scores[uid]["wrong"] += 1
+            user_scores[uid]["score"] -= 0.5
 
-# --- LEADERBOARD ---
-@bot.message_handler(func=lambda m: m.text == '🏆 Get Leaderboard')
-def leaderboard(message):
-    if not user_scores:
-        return bot.send_message(message.chat.id, "No data")
+@bot.callback_query_handler(func=lambda call: True)
+def handle_callbacks(call):
+    uid = call.from_user.id
+    if call.data.startswith("skip_"):
+        target_pid = call.data.split("_")[1]
+        if target_pid != str(current_poll_data["poll_id"]):
+            bot.answer_callback_query(call.id, "❌ Question expired.")
+            return
+        if uid in skipped_this_q:
+            bot.answer_callback_query(call.id, "⚠️ Already skipped!")
+            return
+        init_user(uid, call.from_user.first_name)
+        skipped_this_q.add(uid)
+        user_scores[uid]["skip"] += 1
+        current_poll_data["skip_count"] += 1
+        bot.answer_callback_query(call.id, "⏩ Skipped!")
+    elif call.data == "stop_quiz":
+        quiz_active[GROUP_ID] = False
+        current_poll_data["active"] = False
+        bot.answer_callback_query(call.id, "🛑 Stopping Quiz...")
 
-    sorted_users = sorted(user_scores.values(), key=lambda x: x["score"], reverse=True)
+# [span_5](start_span)===== 4. ADMIN INTERFACE[span_5](end_span) =====
+@bot.message_handler(commands=['admin'])
+def admin(message):
+    user_step[message.chat.id] = "admin_key"
+    bot.send_message(message.chat.id, "🔑 **Enter Admin Key:**")
 
-    text = "🏆 TOP 10\n\n"
-    for i, u in enumerate(sorted_users[:10], 1):
-        text += f"{i}. {u['name']} - {u['score']} pts\n"
+@bot.message_handler(func=lambda m: user_step.get(m.chat.id) == "admin_key")
+def check_key(m):
+    if m.text == ADMIN_KEY:
+        user_step[m.chat.id] = "subject"
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=True).add("Biology", "Math", "Reasoning", "Physics", "Chemistry")
+        bot.send_message(m.chat.id, "📚 **Subject:**", reply_markup=markup)
 
-    bot.send_message(message.chat.id, text)
+@bot.message_handler(func=lambda m: user_step.get(m.chat.id) == "subject")
+def sel_sub(m):
+    sub = m.text.lower()
+    if sub in question_bank:
+        user_state[m.chat.id] = {'subject': sub}
+        user_step[m.chat.id] = "mode"
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=True).add("Mix (All) 🎯", "Chapter-wise 📂")
+        bot.send_message(m.chat.id, "🎯 **Mode:**", reply_markup=markup)
 
-# --- RUN ---
-print("Bot running...")
+@bot.message_handler(func=lambda m: user_step.get(m.chat.id) == "mode")
+def sel_mode(m):
+    sub = user_state[m.chat.id]['subject']
+    if "Mix" in m.text:
+        user_state[m.chat.id]['chapters'] = list(question_bank[sub].keys())
+        user_step[m.chat.id] = "count"
+        bot.send_message(m.chat.id, "🔢 **Question Count:**", reply_markup=types.ReplyKeyboardRemove())
+    else:
+        user_step[m.chat.id] = "chapter"
+        selected_chapters[m.chat.id] = set()
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
+        for ch in question_bank[sub]: markup.add(ch)
+        markup.add("DONE ✅")
+        bot.send_message(m.chat.id, "Select chapters:", reply_markup=markup)
 
-while True:
-    try:
-        bot.polling(none_stop=True, interval=2)
-    except Exception as e:
-        print(e)
-        time.sleep(5)
+@bot.message_handler(func=lambda m: user_step.get(m.chat.id) == "chapter")
+def sel_ch(m):
+    if m.text == "DONE ✅":
+        user_state[m.chat.id]['chapters'] = list(selected_chapters[m.chat.id])
+        user_step[m.chat.id] = "count"
+        bot.send_message(m.chat.id, "🔢 **Count:**", reply_markup=types.ReplyKeyboardRemove())
+    else:
+        selected_chapters[m.chat.id].add(m.text)
+        bot.send_message(m.chat.id, f"➕ {m.text}")
+
+@bot.message_handler(func=lambda m: user_step.get(m.chat.id) == "count")
+def sel_count(m):
+    user_state[m.chat.id]['count'] = int(m.text)
+    user_step[m.chat.id] = "timer"
+    bot.send_message(m.chat.id, "⏱️ **Global Timer (sec):**")
+
+@bot.message_handler(func=lambda m: user_step.get(m.chat.id) == "timer")
+def sel_timer(m):
+    user_state[m.chat.id]['timer'] = int(m.text)
+    user_step[m.chat.id] = "limit"
+    bot.send_message(m.chat.id, "👤 **Answer Limit (Votes + Skips):**")
+
+@bot.message_handler(func=lambda m: user_step.get(m.chat.id) == "limit")
+def sel_limit(m):
+    user_state[m.chat.id]['max_answers'] = int(m.text)
+    user_step[m.chat.id] = "ready"
+    bot.send_message(m.chat.id, "✅ Ready!", reply_markup=types.ReplyKeyboardMarkup(resize_keyboard=True).add("START QUIZ 🚀"))
+
+# [span_6](start_span)===== 5. THE PRO QUIZ ENGINE[span_6](end_span) =====
+@bot.message_handler(func=lambda m: m.text == "START QUIZ 🚀" and user_step.get(m.chat.id) == "ready")
+def start_trigger(message):
+    quiz_active[GROUP_ID] = True
+    stop_btn = types.InlineKeyboardMarkup().add(types.InlineKeyboardButton("🛑 STOP QUIZ", callback_data="stop_quiz"))
+    bot.send_message(message.chat.id, "🚨 Quiz started. Click to stop:", reply_markup=stop_btn)
+    threading.Thread(target=run_quiz, args=(message.chat.id,)).start()
+
+def run_quiz(chat_id):
+    global current_poll_data, skipped_this_q
+    user_scores.clear()
+    data = user_state[chat_id]
+    sub = data['subject']
+    
+    all_available_pool = []
+    for ch in data['chapters']: all_available_pool.extend(question_bank[sub].get(ch, []))
+    
+    # 2-Week Repetition Logic
+    used_hashes = get_used_question_hashes()
+    fresh_pool = [q for q in all_available_pool if str(hash(q)) not in used_hashes]
+    
+    # Fallback if fresh pool is empty
+    if len(fresh_pool) < data['count']:
+        bot.send_message(chat_id, "⚠️ Fresh pool low. Questions may repeat.")
+        pool_to_use = all_available_pool
+    else:
+        pool_to_use = fresh_pool
+
+    selected = random.sample(pool_to_use, min(data['count'], len(pool_to_use)))
+
+    bot.send_message(GROUP_ID, f"🔔 **{sub.upper()} QUIZ STARTED!**")
+
+    for block in selected:
+        if not quiz_active.get(GROUP_ID): break
+        
+        # Log to Database
+        mark_question_used(block)
+        
+        current_poll_data.update({"skip_count": 0, "voter_count": 0, "active": True})
+        skipped_this_q.clear()
+        
+        lines = [l.strip() for l in block.split("\n") if l.strip()]
+        q_timer = data['timer']
+        for line in lines:
+            if line.lower().startswith("#time:"): q_timer = int(line.split(":")[1])
+
+        clean_q = [line for line in lines if not line.lower().startswith("#")][0]
+        options = [lines[1][3:], lines[2][3:], lines[3][3:], lines[4][3:]]
+        ans = next((l.split(":")[-1].strip() for l in lines if "Answer:" in l), "A")
+        correct_idx = ord(ans) - ord("A")
+
+        poll_msg = bot.send_poll(GROUP_ID, clean_q, options, type='quiz', 
+                                 correct_option_id=correct_idx, is_anonymous=False, open_period=q_timer)
+        
+        current_poll_data["poll_id"] = poll_msg.poll.id
+        current_poll_data["message_id"] = poll_msg.message_id
+        current_poll_data["correct_id"] = correct_idx
+
+        skip_markup = types.InlineKeyboardMarkup().add(types.InlineKeyboardButton("⏩ Skip", callback_data=f"skip_{poll_msg.poll.id}"))
+        btn_msg = bot.send_message(GROUP_ID, "Skip if you don't know:", reply_markup=skip_markup)
+
+        # Sync Loop (0.5s checks)
+        start_t = time.time()
+        while time.time() - start_t < q_timer:
+            if (current_poll_data["voter_count"] + current_poll_data["skip_count"]) >= data['max_answers']:
+                break
+            if not quiz_active.get(GROUP_ID): break
+            time.sleep(0.5)
+
+        try:
+            bot.delete_message(GROUP_ID, btn_msg.message_id)
+            if current_poll_data["active"]: bot.stop_poll(GROUP_ID, poll_msg.message_id)
+        except: pass
+        current_poll_data["active"] = False
+        time.sleep(2)
+    bot.send_message(GROUP_ID, get_report(), parse_mode="Markdown")
+    bot.send_message(GROUP_ID, "🏁 **Session Complete.**")
+
+if __name__ == "__main__":
+    bot.infinity_polling(skip_pending=True)
+
+    
